@@ -1,0 +1,22 @@
+<h1>Famous Burgers!</h1>
+
+<h2>Burger Time!</h2>
+
+
+
+<ul>
+  {{#each burger}}
+    <li>
+      <p>
+        {{this.id}}. {{this.burger}}
+
+       </p>
+    </li>
+  {{/each}}
+</ul>
+
+<form action="/" method="POST">
+	<textarea type="text" name="task"></textarea>
+
+	<button type="submit">Submit</button>
+</form>
