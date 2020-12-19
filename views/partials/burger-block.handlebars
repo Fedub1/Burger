@@ -1,0 +1,15 @@
+<p align="center">
+	{{#if devoured}}
+    {{id}}.
+    {{burger_name}}
+    {{else}}
+    {{id}}.
+    {{burger_name}}
+
+	<button class="change-devour_status" data-id="{{id}}" data-new_devour_status="true">
+		{{#if devoured}}Devoured It!{{else}}Devour!{{/if}}
+	</button>
+    {{/if}}
+
+	
+</p>
